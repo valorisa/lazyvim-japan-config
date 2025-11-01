@@ -65,7 +65,7 @@ vim.opt.smartcase = true
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.list = true
-vim.opt.listchars = { tab = "┬╗ ", trail = "┬À", nbsp = "ÔÉú" }
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.inccommand = "split"
 vim.opt.cursorline = true
 vim.opt.scrolloff = 10
@@ -86,6 +86,7 @@ vim.opt.conceallevel = 3
 -- Unicode support for accents
 vim.o.encoding = "utf-8"
 vim.o.fileencoding = "utf-8"
+
 
 ```
 
@@ -452,5 +453,6 @@ return {
 Ajoutez vos propres snippets, modules ou outils d'étude du japonais dans le dossier `lua/plugins/`. Pour toute adaptation linguistique ou pédagogique, documentez votre workflow dans le README selon le même schéma.
 
 ***
+
 
 
