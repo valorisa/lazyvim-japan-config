@@ -25,20 +25,29 @@ cd lazyvim-japan-dev
 
 ## Structure du projet
 
-```tree
-nvim/
+```text
+nvim
 ├── init.lua
-├── lua/
-│   ├── config/
-│   │   ├── options.lua
-│   │   ├── keymaps.lua
-│   │   ├── lazy.lua
-│   └── plugins/
-│       ├── colorscheme.lua
-│       ├── ui.lua
-│       ├── editor.lua
-│       ├── lsp.lua
-│       └── coding.lua
+├── lazy-lock.json
+├── lazyvim.json
+├── LICENSE
+├── lua
+│   ├── config
+│   │   ├── autocmds.lua
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── options.lua
+│   └── plugins
+│       ├── coding.lua
+│       ├── colorscheme.lua
+│       ├── editor.lua
+│       ├── lsp.lua
+│       └── ui.lua
+├── README.md
+├── README_backup.md
+└── stylua.toml
+
+3 directories, 16 files
 ```
 
 ***
@@ -453,6 +462,7 @@ return {
 Ajoutez vos propres snippets, modules ou outils d'étude du japonais dans le dossier `lua/plugins/`. Pour toute adaptation linguistique ou pédagogique, documentez votre workflow dans le README selon le même schéma.
 
 ***
+
 
 
 
