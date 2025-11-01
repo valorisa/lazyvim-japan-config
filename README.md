@@ -103,22 +103,22 @@ local opts = { noremap = true, silent = true }
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
--- Accents fran├ºais
+-- Accents français
 local function insert_accent(char)
   return function()
     vim.api.nvim_put({ char }, "c", true, true)
   end
 end
 
-keymap("i", "<C-e>", insert_accent("├®"), { desc = "├®" })
-keymap("i", "<C-E>", insert_accent("├ê"), { desc = "├ê" })
-keymap("i", "<C-a>", insert_accent("├á"), { desc = "├á" })
-keymap("i", "<C-c>", insert_accent("├º"), { desc = "├º" })
-keymap("i", "<C-^>", insert_accent("├¬"), { desc = "├¬" })
-keymap("i", "<C-'>", insert_accent("├½"), { desc = "├½" })
-keymap("i", "<C-u>", insert_accent("├╣"), { desc = "├╣" })
-keymap("i", "<C-i>", insert_accent("├«"), { desc = "├«" })
-keymap("i", "<C-o>", insert_accent("├┤"), { desc = "├┤" })
+keymap("i", "<C-e>", insert_accent("é"), { desc = "é" })
+keymap("i", "<C-E>", insert_accent("È"), { desc = "È" })
+keymap("i", "<C-a>", insert_accent("à"), { desc = "à" })
+keymap("i", "<C-c>", insert_accent("ç"), { desc = "ç" })
+keymap("i", "<C-^>", insert_accent("ê"), { desc = "ê" })
+keymap("i", "<C-'>", insert_accent("ë"), { desc = "ë" })
+keymap("i", "<C-u>", insert_accent("ù"), { desc = "ù" })
+keymap("i", "<C-i>", insert_accent("î"), { desc = "î" })
+keymap("i", "<C-o>", insert_accent("ô"), { desc = "ô" })
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
@@ -452,4 +452,5 @@ return {
 Ajoutez vos propres snippets, modules ou outils d'étude du japonais dans le dossier `lua/plugins/`. Pour toute adaptation linguistique ou pédagogique, documentez votre workflow dans le README selon le même schéma.
 
 ***
+
 
