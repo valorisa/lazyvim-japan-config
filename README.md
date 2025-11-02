@@ -462,9 +462,3 @@ return {
 Ajoutez vos propres snippets, modules ou outils d'étude du japonais dans le dossier `lua/plugins/`. Pour toute adaptation linguistique ou pédagogique, documentez votre workflow dans le README selon le même schéma.
 
 ***
-
-
-
-
-
-
