@@ -278,7 +278,7 @@ return {
     opts = function(_, opts)
       local logo = [[
           _  |  _  __ o  _  _ 
-	  \_/(_| | (_) |  | _> (_|
+      \_/(_| | (_) |  | _> (_|
 
       ]]
       logo = string.rep("\n", 8) .. logo .. "\n\n"
