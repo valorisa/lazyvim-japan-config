@@ -16,7 +16,7 @@ Ce projet propose une configuration Neovim clé en main pour Windows 11, inspir�
 ## Installation rapide
 
 ```bash
-git clone https://github.com/tonpseudo/lazyvim-japan-dev.git
+git clone https://github.com/valorisa/lazyvim-japan-dev.git
 cd lazyvim-japan-dev
 # Copier le dossier dans C:\Users\<VotreNom>\AppData\Local\nvim
 ```
@@ -462,3 +462,4 @@ return {
 Ajoutez vos propres snippets, modules ou outils d'étude du japonais dans le dossier `lua/plugins/`. Pour toute adaptation linguistique ou pédagogique, documentez votre workflow dans le README selon le même schéma.
 
 ***
+
